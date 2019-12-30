@@ -1,0 +1,30 @@
+WARNING: Logging before flag parsing goes to stderr.
+W0826 14:13:07.538280 4560307648 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/common/tf_util.py:164: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0826 14:13:07.538489 4560307648 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/common/tf_util.py:167: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-08-26 14:13:07.538825: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+W0826 14:13:07.541547 4560307648 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/common/tf_util.py:84: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0826 14:13:07.544970 4560307648 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:228: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0826 14:13:07.545136 4560307648 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:85: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0826 14:13:07.545248 4560307648 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:85: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+W0826 14:13:07.850376 4560307648 deprecation.py:323] From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0826 14:13:07.980334 4560307648 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:152: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+W0826 14:13:07.988053 4560307648 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:156: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+W0826 14:13:08.343972 4560307648 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:260: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+arglist.u_estimation False
+adversary agent:  -0.25
+adversary agent:  -0.25
+good agent:  4.2
+good agent:  4.2
+Using good policy maddpg and adv policy maddpg
+Starting iterations...

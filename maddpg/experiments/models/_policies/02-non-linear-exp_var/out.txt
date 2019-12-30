@@ -1,0 +1,32 @@
+# bsub -q x86_6h -g /stamilse/_/default -M 102400 -hl -n 1 -R \
+    rusage[mem=108544,ngpus_excl_p=1] affinity[core(1)] -Is \
+    /u/stamilse/miniconda3/bin/python train.py --scenario --num-agents \
+    --num-adversaries --u_estimation True --constrained True \
+    --constraint_type Exp_Var
+--exp_var_alpha 23.72 --exp-name MADDPG__exp_var_02 --save-dir \
+    models/_policies/02-non-linear-exp_var/ --plots-dir \
+    models/_policies/02-non-linear-exp_var/
+Job <1090399> is submitted to queue <x86_6h>.
+<<Waiting for dispatch ...>>
+<<Starting on dccxc234>>
+usage: Reinforcement Learning experiments for multiagent environments
+       [-h] [--scenario SCENARIO] [--max-episode-len MAX_EPISODE_LEN]
+       [--num-episodes NUM_EPISODES]
+       [--num-episodes-freeze_policy NUM_EPISODES_FREEZE_POLICY]
+       [--num-agents NUM_AGENTS] [--num-adversaries NUM_ADVERSARIES]
+       [--good-policy GOOD_POLICY] [--adv-policy ADV_POLICY]
+       [--independent-learner INDEPENDENT_LEARNER] [--lr_actor LR_ACTOR]
+       [--lr_critic LR_CRITIC] [--lr_lamda LR_LAMDA] [--lr_v LR_V]
+       [--u_estimation U_ESTIMATION] [--constrained CONSTRAINED]
+       [--constraint_type CONSTRAINT_TYPE] [--gamma GAMMA]
+       [--batch-size BATCH_SIZE] [--num-units NUM_UNITS]
+       [--exp_var_alpha EXP_VAR_ALPHA]
+       [--cvar_alpha_adv_agent CVAR_ALPHA_ADV_AGENT]
+       [--cvar_alpha_good_agent CVAR_ALPHA_GOOD_AGENT] [--cvar_beta CVAR_BETA]
+       [--linear] [--test] [--exp-name EXP_NAME] [--save-dir SAVE_DIR]
+       [--save-rate SAVE_RATE] [--load-dir LOAD_DIR] [--restore] [--display]
+       [--render-rate RENDER_RATE] [--benchmark]
+       [--benchmark-iters BENCHMARK_ITERS] [--benchmark-dir BENCHMARK_DIR]
+       [--plots-dir PLOTS_DIR]
+Reinforcement Learning experiments for multiagent environments: error: argument --scenario: expected one argument
+/u/stamilse/.lsbatch/1567759245.1090399: line 9: --exp_var_alpha: command not found

@@ -1,0 +1,610 @@
+WARNING: Logging before flag parsing goes to stderr.
+W0827 02:53:05.900378 4626720192 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/common/tf_util.py:164: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W0827 02:53:05.900578 4626720192 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/common/tf_util.py:167: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-08-27 02:53:05.900904: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+W0827 02:53:05.905287 4626720192 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/common/tf_util.py:84: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0827 02:53:05.907207 4626720192 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:228: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0827 02:53:05.907305 4626720192 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:85: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0827 02:53:05.907372 4626720192 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:85: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+W0827 02:53:06.215351 4626720192 deprecation.py:323] From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0827 02:53:06.348423 4626720192 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:152: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+W0827 02:53:06.356672 4626720192 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:156: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+W0827 02:53:06.709585 4626720192 deprecation_wrapper.py:119] From /Users/sandeep/marl/multiagent-rl/maddpg/maddpg/trainer/maddpg.py:260: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+arglist.u_estimation False
+adversary agent:  -0.25
+adversary agent:  -0.25
+good agent:  4.2
+good agent:  4.2
+Using good policy maddpg and adv policy maddpg
+Starting iterations...
+steps: 24975, episodes: 1000, mean episode reward: -17.52111744053081, agent episode reward: [2.96, 2.96, -14.144585026952381, -9.296532413578426], time: 36.196
+steps: 24975, episodes: 1000, mean episode variance: 0.0, agent episode variance: [0.0, 0.0, 0.0, 0.0], time: 36.197
+Running avgs for agent 0: q_loss: nan, p_loss: nan, mean_rew: nan, variance: nan, lamda: nan
+Running avgs for agent 1: q_loss: nan, p_loss: nan, mean_rew: nan, variance: nan, lamda: nan
+Running avgs for agent 2: q_loss: nan, p_loss: nan, mean_rew: nan, variance: nan, lamda: nan
+Running avgs for agent 3: q_loss: nan, p_loss: nan, mean_rew: nan, variance: nan, lamda: nan
+
+steps: 49975, episodes: 2000, mean episode reward: -156.0672545680341, agent episode reward: [3.39, 3.39, -93.17835350675148, -69.66890106128261], time: 63.293
+steps: 49975, episodes: 2000, mean episode variance: 1.2876970443874598, agent episode variance: [0.18848737505823374, 0.18204305766522885, 0.5002408649474382, 0.4169257467165589], time: 63.293
+Running avgs for agent 0: q_loss: 184.45925903320312, p_loss: -0.016724176704883575, mean_rew: 0.12227042776639344, variance: 0.7724892420419416, lamda: 1.0122520923614502
+Running avgs for agent 1: q_loss: 180.92027282714844, p_loss: -0.06023833155632019, mean_rew: 0.12183017418032786, variance: 0.7460781051853641, lamda: 1.0122520923614502
+Running avgs for agent 2: q_loss: 119.55130767822266, p_loss: -0.16883939504623413, mean_rew: -1.4392529407828432, variance: 2.0501674792927798, lamda: 1.0122520923614502
+Running avgs for agent 3: q_loss: 122.26388549804688, p_loss: -0.08777827769517899, mean_rew: -1.3153863022639354, variance: 1.7087120767072088, lamda: 1.0122520923614502
+
+steps: 74975, episodes: 3000, mean episode reward: -121.01719868655893, agent episode reward: [3.81, 3.81, -88.7514622964764, -39.88573639008253], time: 62.182
+steps: 74975, episodes: 3000, mean episode variance: 1.7665824569389224, agent episode variance: [0.23111109793931245, 0.22723515928536653, 0.8518221368789672, 0.45641406283527614], time: 62.182
+Running avgs for agent 0: q_loss: 290.728759765625, p_loss: -0.1836404651403427, mean_rew: 0.127578125, variance: 0.9244443917572498, lamda: 1.0369561910629272
+Running avgs for agent 1: q_loss: 278.2915344238281, p_loss: -0.21376585960388184, mean_rew: 0.12609375, variance: 0.9089406371414661, lamda: 1.0369561910629272
+Running avgs for agent 2: q_loss: 215.99806213378906, p_loss: -0.491150438785553, mean_rew: -2.5125281723445814, variance: 3.4072885513305664, lamda: 1.0369561910629272
+Running avgs for agent 3: q_loss: 207.01248168945312, p_loss: 0.1236344426870346, mean_rew: -1.5680826045076437, variance: 1.8256562513411045, lamda: 1.0369561910629272
+
+steps: 99975, episodes: 4000, mean episode reward: -74.52255017763922, agent episode reward: [4.93, 4.93, -34.76109180741417, -49.62145837022506], time: 62.159
+steps: 99975, episodes: 4000, mean episode variance: 1.8731659825891256, agent episode variance: [0.2981910138651729, 0.31788307674974203, 0.7689571129009127, 0.488134779073298], time: 62.16
+Running avgs for agent 0: q_loss: 525.5020141601562, p_loss: -0.3783901631832123, mean_rew: 0.142734375, variance: 1.1927640554606915, lamda: 1.061960220336914
+Running avgs for agent 1: q_loss: 531.8579711914062, p_loss: -0.42523226141929626, mean_rew: 0.138671875, variance: 1.2715323069989681, lamda: 1.061960220336914
+Running avgs for agent 2: q_loss: 595.0783081054688, p_loss: 0.2872175872325897, mean_rew: -2.466855883759027, variance: 3.075828451603651, lamda: 1.061960220336914
+Running avgs for agent 3: q_loss: 351.1634521484375, p_loss: 0.11900188028812408, mean_rew: -1.6478278757158296, variance: 1.952539116293192, lamda: 1.061960220336914
+
+steps: 124975, episodes: 5000, mean episode reward: -49.97124429181681, agent episode reward: [5.17, 5.17, -15.320076676890315, -44.991167614926496], time: 62.271
+steps: 124975, episodes: 5000, mean episode variance: 1.9686728839688004, agent episode variance: [0.3772268653810024, 0.3547576773241162, 0.7463753009177745, 0.4903130403459072], time: 62.272
+Running avgs for agent 0: q_loss: 785.5355224609375, p_loss: -0.7568597793579102, mean_rew: 0.1559375, variance: 1.5089074615240097, lamda: 1.08696448802948
+Running avgs for agent 1: q_loss: 768.949462890625, p_loss: -0.7919094562530518, mean_rew: 0.157265625, variance: 1.419030709296465, lamda: 1.08696448802948
+Running avgs for agent 2: q_loss: 1507.5738525390625, p_loss: 1.2647732496261597, mean_rew: -2.1485217018308003, variance: 2.985501203671098, lamda: 1.08696448802948
+Running avgs for agent 3: q_loss: 671.9144897460938, p_loss: 0.056202858686447144, mean_rew: -1.7014103546053236, variance: 1.961252161383629, lamda: 1.08696448802948
+
+steps: 149975, episodes: 6000, mean episode reward: -52.806403356672575, agent episode reward: [5.38, 5.38, -11.566751405861535, -51.99965195081105], time: 62.445
+steps: 149975, episodes: 6000, mean episode variance: 2.0658728985786436, agent episode variance: [0.39907745956629515, 0.3954118451848626, 0.7470357041656971, 0.5243478896617889], time: 62.446
+Running avgs for agent 0: q_loss: 921.5899658203125, p_loss: -1.076971173286438, mean_rew: 0.16734375, variance: 1.5963098382651806, lamda: 1.1119686365127563
+Running avgs for agent 1: q_loss: 868.433837890625, p_loss: -1.0696381330490112, mean_rew: 0.1700390625, variance: 1.5816473807394504, lamda: 1.1119686365127563
+Running avgs for agent 2: q_loss: 2185.47998046875, p_loss: 2.29366135597229, mean_rew: -1.8474634128992025, variance: 2.9881428166627884, lamda: 1.1119686365127563
+Running avgs for agent 3: q_loss: 1103.653076171875, p_loss: 0.008729160763323307, mean_rew: -1.7473656806687599, variance: 2.0973915586471557, lamda: 1.1119686365127563
+
+steps: 174975, episodes: 7000, mean episode reward: -34.63808278557274, agent episode reward: [7.06, 7.06, -7.956091722432749, -40.801991063139994], time: 62.307
+steps: 174975, episodes: 7000, mean episode variance: 1.8893077615648508, agent episode variance: [0.44695599786937235, 0.40686865646392106, 0.5679071088731289, 0.4675759983584285], time: 62.308
+Running avgs for agent 0: q_loss: 1159.803955078125, p_loss: -1.4233405590057373, mean_rew: 0.1783984375, variance: 1.7878239914774894, lamda: 1.1369726657867432
+Running avgs for agent 1: q_loss: 925.3208618164062, p_loss: -1.2804782390594482, mean_rew: 0.175390625, variance: 1.6274746258556843, lamda: 1.1369726657867432
+Running avgs for agent 2: q_loss: 3084.345703125, p_loss: 3.8245491981506348, mean_rew: -1.6179930706170842, variance: 2.2716284354925156, lamda: 1.1369726657867432
+Running avgs for agent 3: q_loss: 1299.1881103515625, p_loss: -0.04860305041074753, mean_rew: -1.7536243835153085, variance: 1.870303993433714, lamda: 1.1369726657867432
+
+steps: 199975, episodes: 8000, mean episode reward: -25.61070591759128, agent episode reward: [7.42, 7.42, -5.695414866825865, -34.755291050765415], time: 62.595
+steps: 199975, episodes: 8000, mean episode variance: 2.0793739907070994, agent episode variance: [0.46900449551641943, 0.43863985549658535, 0.6890831930339336, 0.48264644666016104], time: 62.596
+Running avgs for agent 0: q_loss: 1467.34716796875, p_loss: -1.8388136625289917, mean_rew: 0.1961328125, variance: 1.8760179820656777, lamda: 1.161976933479309
+Running avgs for agent 1: q_loss: 1179.18798828125, p_loss: -1.6834293603897095, mean_rew: 0.1930859375, variance: 1.7545594219863414, lamda: 1.161976933479309
+Running avgs for agent 2: q_loss: 4809.28271484375, p_loss: 4.258155345916748, mean_rew: -1.430125841471532, variance: 2.7563327721357345, lamda: 1.161976933479309
+Running avgs for agent 3: q_loss: 1591.3228759765625, p_loss: -0.12813317775726318, mean_rew: -1.7189399787431143, variance: 1.9305857866406442, lamda: 1.161976933479309
+
+steps: 224975, episodes: 9000, mean episode reward: -19.06157868904875, agent episode reward: [8.16, 8.16, -5.684660605765485, -29.69691808328326], time: 62.526
+steps: 224975, episodes: 9000, mean episode variance: 2.4080220721513035, agent episode variance: [0.47110990385711193, 0.4906042821109295, 0.9038351264595985, 0.5424727597236634], time: 62.527
+Running avgs for agent 0: q_loss: 1700.8040771484375, p_loss: -2.1099839210510254, mean_rew: 0.2091015625, variance: 1.8844396154284477, lamda: 1.1869810819625854
+Running avgs for agent 1: q_loss: 1589.664794921875, p_loss: -2.090618848800659, mean_rew: 0.209453125, variance: 1.962417128443718, lamda: 1.1869810819625854
+Running avgs for agent 2: q_loss: 7668.7060546875, p_loss: 4.306998252868652, mean_rew: -1.293359082942835, variance: 3.615340505838394, lamda: 1.1869810819625854
+Running avgs for agent 3: q_loss: 1500.543701171875, p_loss: -0.11293532699346542, mean_rew: -1.6768583284220675, variance: 2.1698910388946535, lamda: 1.1869810819625854
+
+steps: 249975, episodes: 10000, mean episode reward: -32.22985352366527, agent episode reward: [6.77, 6.77, -6.745956451062943, -39.023897072602324], time: 62.585
+steps: 249975, episodes: 10000, mean episode variance: 2.6070467233210803, agent episode variance: [0.48664309494197366, 0.5422630251348018, 1.02130837225914, 0.5568322309851647], time: 62.585
+Running avgs for agent 0: q_loss: 1803.280517578125, p_loss: -2.386472225189209, mean_rew: 0.210390625, variance: 1.9465723797678947, lamda: 1.2119851112365723
+Running avgs for agent 1: q_loss: 1886.3284912109375, p_loss: -2.352022886276245, mean_rew: 0.22109375, variance: 2.1690521005392074, lamda: 1.2119851112365723
+Running avgs for agent 2: q_loss: 9767.1103515625, p_loss: 4.3109307289123535, mean_rew: -1.1896764306217043, variance: 4.08523348903656, lamda: 1.2119851112365723
+Running avgs for agent 3: q_loss: 2045.8446044921875, p_loss: -0.10075858980417252, mean_rew: -1.6591490706097225, variance: 2.2273289239406586, lamda: 1.2119851112365723
+
+steps: 274975, episodes: 11000, mean episode reward: -48.19227778763405, agent episode reward: [5.07, 5.07, -7.2130528743182, -51.11922491331585], time: 62.94
+steps: 274975, episodes: 11000, mean episode variance: 2.618171837449074, agent episode variance: [0.500644221842289, 0.5409252219796181, 1.0745693407058716, 0.5020330529212952], time: 62.941
+Running avgs for agent 0: q_loss: 2048.124267578125, p_loss: -2.7344679832458496, mean_rew: 0.220078125, variance: 2.002576887369156, lamda: 1.2369892597198486
+Running avgs for agent 1: q_loss: 2203.720458984375, p_loss: -2.7095303535461426, mean_rew: 0.21953125, variance: 2.1637008879184725, lamda: 1.2369892597198486
+Running avgs for agent 2: q_loss: 13204.1630859375, p_loss: 4.1937255859375, mean_rew: -1.0978561802274718, variance: 4.2982773628234865, lamda: 1.2369892597198486
+Running avgs for agent 3: q_loss: 1796.8572998046875, p_loss: -0.19144484400749207, mean_rew: -1.6459290104927249, variance: 2.0081322116851807, lamda: 1.2369892597198486
+
+steps: 299975, episodes: 12000, mean episode reward: -40.568227097440456, agent episode reward: [8.13, 8.13, -10.114190402114552, -46.71403669532591], time: 63.299
+steps: 299975, episodes: 12000, mean episode variance: 2.6137186137512325, agent episode variance: [0.5139486375376582, 0.5987922310233116, 0.9796290702819824, 0.5213486749082804], time: 63.3
+Running avgs for agent 0: q_loss: 2231.898193359375, p_loss: -3.04892635345459, mean_rew: 0.223515625, variance: 2.0557945501506327, lamda: 1.2619935274124146
+Running avgs for agent 1: q_loss: 2550.7783203125, p_loss: -3.053867816925049, mean_rew: 0.2219921875, variance: 2.3951689240932463, lamda: 1.2619935274124146
+Running avgs for agent 2: q_loss: 15210.521484375, p_loss: 3.9706406593322754, mean_rew: -1.0363349219196605, variance: 3.9185162811279297, lamda: 1.2619935274124146
+Running avgs for agent 3: q_loss: 2232.771240234375, p_loss: -0.1759243756532669, mean_rew: -1.6837851359278657, variance: 2.0853946996331216, lamda: 1.2619935274124146
+
+steps: 324975, episodes: 13000, mean episode reward: -41.51158834927298, agent episode reward: [10.58, 10.58, -11.474000988701318, -51.19758736057166], time: 62.677
+steps: 324975, episodes: 13000, mean episode variance: 2.824110032439232, agent episode variance: [0.5516414561718702, 0.5854146216511726, 1.0205225622355938, 0.6665313923805952], time: 62.678
+Running avgs for agent 0: q_loss: 2953.94580078125, p_loss: -3.556936502456665, mean_rew: 0.2334375, variance: 2.206565824687481, lamda: 1.2869975566864014
+Running avgs for agent 1: q_loss: 3435.6533203125, p_loss: -3.637632369995117, mean_rew: 0.236953125, variance: 2.3416584866046906, lamda: 1.2869975566864014
+Running avgs for agent 2: q_loss: 19038.8515625, p_loss: 3.8288328647613525, mean_rew: -0.98139926304272, variance: 4.082090248942375, lamda: 1.2869975566864014
+Running avgs for agent 3: q_loss: 2848.329833984375, p_loss: 0.1089060828089714, mean_rew: -1.7111882480411842, variance: 2.666125569522381, lamda: 1.2869975566864014
+
+steps: 349975, episodes: 14000, mean episode reward: -26.64015780536477, agent episode reward: [12.14, 12.14, -10.276047567442042, -40.64411023792273], time: 62.809
+steps: 349975, episodes: 14000, mean episode variance: 2.8541669661700726, agent episode variance: [0.5688955777287483, 0.6997726182639599, 1.043272591173649, 0.5422261790037155], time: 62.81
+Running avgs for agent 0: q_loss: 4270.69677734375, p_loss: -4.193422317504883, mean_rew: 0.25609375, variance: 2.2755823109149933, lamda: 1.3120017051696777
+Running avgs for agent 1: q_loss: 5396.52734375, p_loss: -4.4678449630737305, mean_rew: 0.247734375, variance: 2.7990904730558395, lamda: 1.3120017051696777
+Running avgs for agent 2: q_loss: 21897.666015625, p_loss: 3.8874623775482178, mean_rew: -0.9346936871072237, variance: 4.173090364694596, lamda: 1.3120017051696777
+Running avgs for agent 3: q_loss: 2370.117431640625, p_loss: 0.025622986257076263, mean_rew: -1.7295769120281386, variance: 2.168904716014862, lamda: 1.3120017051696777
+
+steps: 374975, episodes: 15000, mean episode reward: -12.693523483336186, agent episode reward: [13.9, 13.9, -10.608133231246024, -29.88539025209016], time: 63.096
+steps: 374975, episodes: 15000, mean episode variance: 3.0448111564666034, agent episode variance: [0.6405727775394916, 0.7506843425035477, 1.0695037147402764, 0.5840503216832876], time: 63.096
+Running avgs for agent 0: q_loss: 6412.48388671875, p_loss: -5.08552360534668, mean_rew: 0.2690625, variance: 2.5622911101579664, lamda: 1.3370059728622437
+Running avgs for agent 1: q_loss: 7740.32080078125, p_loss: -5.473265171051025, mean_rew: 0.27140625, variance: 3.0027373700141906, lamda: 1.3370059728622437
+Running avgs for agent 2: q_loss: 28423.669921875, p_loss: 3.759445905685425, mean_rew: -0.9052063732974458, variance: 4.278014858961106, lamda: 1.3370059728622437
+Running avgs for agent 3: q_loss: 3353.566162109375, p_loss: -0.020025666803121567, mean_rew: -1.6936205122165635, variance: 2.3362012867331505, lamda: 1.3370059728622437
+
+steps: 399975, episodes: 16000, mean episode reward: -24.48339558108666, agent episode reward: [15.85, 15.85, -13.343042493886852, -42.84035308719981], time: 63.091
+steps: 399975, episodes: 16000, mean episode variance: 3.1657202472165227, agent episode variance: [0.7181351341307163, 0.8877202512025834, 1.09715666949749, 0.46270819238573313], time: 63.091
+Running avgs for agent 0: q_loss: 9200.0166015625, p_loss: -6.137967586517334, mean_rew: 0.2873046875, variance: 2.872540536522865, lamda: 1.36201012134552
+Running avgs for agent 1: q_loss: 11838.994140625, p_loss: -6.617993354797363, mean_rew: 0.288046875, variance: 3.5508810048103334, lamda: 1.36201012134552
+Running avgs for agent 2: q_loss: 28409.267578125, p_loss: 3.7007954120635986, mean_rew: -0.8769298164020545, variance: 4.38862667798996, lamda: 1.36201012134552
+Running avgs for agent 3: q_loss: 3382.521484375, p_loss: -0.07508592307567596, mean_rew: -1.688599071188839, variance: 1.8508327695429325, lamda: 1.36201012134552
+
+steps: 424975, episodes: 17000, mean episode reward: -33.848812131374714, agent episode reward: [17.24, 17.24, -18.653221737811727, -49.67559039356299], time: 62.924
+steps: 424975, episodes: 17000, mean episode variance: 3.6399664762318134, agent episode variance: [0.9498769335150719, 1.064094090938568, 1.0260528841018677, 0.5999425676763057], time: 62.924
+Running avgs for agent 0: q_loss: 13808.8740234375, p_loss: -7.183747291564941, mean_rew: 0.3094921875, variance: 3.7995077340602874, lamda: 1.3870141506195068
+Running avgs for agent 1: q_loss: 17823.880859375, p_loss: -7.839247703552246, mean_rew: 0.30734375, variance: 4.256376363754272, lamda: 1.3870141506195068
+Running avgs for agent 2: q_loss: 29930.142578125, p_loss: 3.479300022125244, mean_rew: -0.856795465637138, variance: 4.104211536407471, lamda: 1.3870141506195068
+Running avgs for agent 3: q_loss: 6479.5908203125, p_loss: -0.28125420212745667, mean_rew: -1.6869605938791856, variance: 2.399770270705223, lamda: 1.3870141506195068
+
+steps: 449975, episodes: 18000, mean episode reward: -33.2960011333341, agent episode reward: [25.03, 25.03, -27.993786441760776, -55.36221469157333], time: 62.987
+steps: 449975, episodes: 18000, mean episode variance: 4.089072176411748, agent episode variance: [1.1684845708012581, 1.1589183632135391, 0.8935711308121681, 0.8680981115847826], time: 62.987
+Running avgs for agent 0: q_loss: 23232.080078125, p_loss: -8.407315254211426, mean_rew: 0.3458203125, variance: 4.6739382832050325, lamda: 1.4120182991027832
+Running avgs for agent 1: q_loss: 27685.111328125, p_loss: -9.299898147583008, mean_rew: 0.3500390625, variance: 4.6356734528541566, lamda: 1.4120182991027832
+Running avgs for agent 2: q_loss: 32410.52734375, p_loss: 3.4660441875457764, mean_rew: -0.8639435394117222, variance: 3.5742845232486724, lamda: 1.4120182991027832
+Running avgs for agent 3: q_loss: 4832.423828125, p_loss: 0.23904693126678467, mean_rew: -1.7070123527919103, variance: 3.4723924463391302, lamda: 1.4120182991027832
+
+steps: 474975, episodes: 19000, mean episode reward: -20.113505536290763, agent episode reward: [31.03, 31.03, -35.96177125029745, -46.21173428599331], time: 63.181
+steps: 474975, episodes: 19000, mean episode variance: 4.889971632659435, agent episode variance: [1.3013402661681175, 1.4511491855382919, 1.295445923924446, 0.8420362570285798], time: 63.182
+Running avgs for agent 0: q_loss: 39449.0390625, p_loss: -9.727364540100098, mean_rew: 0.3850390625, variance: 5.20536106467247, lamda: 1.4370224475860596
+Running avgs for agent 1: q_loss: 45870.45703125, p_loss: -11.087167739868164, mean_rew: 0.382734375, variance: 5.8045967421531675, lamda: 1.4370224475860596
+Running avgs for agent 2: q_loss: 40254.375, p_loss: 2.9747684001922607, mean_rew: -0.8914643560707661, variance: 5.181783695697784, lamda: 1.4370224475860596
+Running avgs for agent 3: q_loss: 5035.10595703125, p_loss: 0.9994780421257019, mean_rew: -1.7424370257625341, variance: 3.368145028114319, lamda: 1.4370224475860596
+
+steps: 499975, episodes: 20000, mean episode reward: 12.549926734532466, agent episode reward: [36.3, 36.3, -43.0903918636391, -16.959681401828433], time: 62.936
+steps: 499975, episodes: 20000, mean episode variance: 5.213758617281914, agent episode variance: [1.595546295762062, 1.649512792944908, 1.1259994740486146, 0.842700054526329], time: 62.936
+Running avgs for agent 0: q_loss: 67937.375, p_loss: -11.377532958984375, mean_rew: 0.4366015625, variance: 6.382185183048248, lamda: 1.462026596069336
+Running avgs for agent 1: q_loss: 75481.390625, p_loss: -12.786705017089844, mean_rew: 0.4338671875, variance: 6.598051171779632, lamda: 1.462026596069336
+Running avgs for agent 2: q_loss: 31926.37109375, p_loss: 2.6528866291046143, mean_rew: -0.9252207448653671, variance: 4.503997896194458, lamda: 1.462026596069336
+Running avgs for agent 3: q_loss: 5534.619140625, p_loss: 3.252164602279663, mean_rew: -1.7171302820478982, variance: 3.370800218105316, lamda: 1.462026596069336
+
+steps: 524975, episodes: 21000, mean episode reward: 22.361650337664905, agent episode reward: [45.48, 45.48, -50.82690775817281, -17.771441904162298], time: 62.838
+steps: 524975, episodes: 21000, mean episode variance: 7.146213950753212, agent episode variance: [2.3678561174869537, 2.3067061113119127, 1.1529575417041777, 1.318694180250168], time: 62.839
+Running avgs for agent 0: q_loss: 120677.484375, p_loss: -13.29190731048584, mean_rew: 0.4937109375, variance: 9.471424469947815, lamda: 1.4870308637619019
+Running avgs for agent 1: q_loss: 132950.171875, p_loss: -14.653985977172852, mean_rew: 0.4842578125, variance: 9.22682444524765, lamda: 1.4870308637619019
+Running avgs for agent 2: q_loss: 35873.30078125, p_loss: 2.3971991539001465, mean_rew: -0.9764042464760906, variance: 4.611830166816711, lamda: 1.4870308637619019
+Running avgs for agent 3: q_loss: 7776.044921875, p_loss: 4.68953800201416, mean_rew: -1.6605318293618732, variance: 5.274776721000672, lamda: 1.4870308637619019
+
+steps: 549975, episodes: 22000, mean episode reward: 25.56514640014295, agent episode reward: [44.27, 44.27, -51.54296127493088, -11.431892324926174], time: 63.278
+steps: 549975, episodes: 22000, mean episode variance: 7.194451658070087, agent episode variance: [2.7905494475364687, 2.441225229501724, 1.0702474665641786, 0.8924295144677162], time: 63.278
+Running avgs for agent 0: q_loss: 194801.90625, p_loss: -15.9494047164917, mean_rew: 0.550234375, variance: 11.162197790145875, lamda: 1.5120350122451782
+Running avgs for agent 1: q_loss: 216955.78125, p_loss: -16.74791717529297, mean_rew: 0.5552734375, variance: 9.764900918006896, lamda: 1.5120350122451782
+Running avgs for agent 2: q_loss: 35568.53125, p_loss: 2.206033706665039, mean_rew: -1.0245281986929735, variance: 4.280989866256714, lamda: 1.5120350122451782
+Running avgs for agent 3: q_loss: 7279.70263671875, p_loss: 4.55283260345459, mean_rew: -1.6114976424741803, variance: 3.569718057870865, lamda: 1.5120350122451782
+
+steps: 574975, episodes: 23000, mean episode reward: 37.41078415244498, agent episode reward: [52.7, 52.7, -56.748380633490946, -11.240835214064074], time: 63.367
+steps: 574975, episodes: 23000, mean episode variance: 7.65187807649374, agent episode variance: [2.694682063102722, 3.0095697767734526, 0.9143913560509682, 1.033234880566597], time: 63.367
+Running avgs for agent 0: q_loss: 268798.03125, p_loss: -19.218870162963867, mean_rew: 0.615234375, variance: 10.778728252410888, lamda: 1.537039041519165
+Running avgs for agent 1: q_loss: 283415.0625, p_loss: -19.353944778442383, mean_rew: 0.6228515625, variance: 12.03827910709381, lamda: 1.537039041519165
+Running avgs for agent 2: q_loss: 34122.67578125, p_loss: 1.7457160949707031, mean_rew: -1.073836488332034, variance: 3.657565424203873, lamda: 1.537039041519165
+Running avgs for agent 3: q_loss: 7233.3017578125, p_loss: 4.247815132141113, mean_rew: -1.5609638221598312, variance: 4.132939522266388, lamda: 1.537039041519165
+
+steps: 599975, episodes: 24000, mean episode reward: 41.80063066250337, agent episode reward: [56.89, 56.89, -61.60747717908006, -10.371892158416564], time: 63.071
+steps: 599975, episodes: 24000, mean episode variance: 9.052522628515959, agent episode variance: [3.5185509026050568, 3.565119328022003, 1.1593720197975637, 0.8094803780913353], time: 63.072
+Running avgs for agent 0: q_loss: 337436.8125, p_loss: -23.274723052978516, mean_rew: 0.6843359375, variance: 14.074203610420227, lamda: 1.5620431900024414
+Running avgs for agent 1: q_loss: 326419.25, p_loss: -22.572265625, mean_rew: 0.6699609375, variance: 14.260477312088012, lamda: 1.5620431900024414
+Running avgs for agent 2: q_loss: 42051.2890625, p_loss: 1.551064372062683, mean_rew: -1.1317482487928354, variance: 4.637488079190255, lamda: 1.5620431900024414
+Running avgs for agent 3: q_loss: 7725.818359375, p_loss: 3.5321953296661377, mean_rew: -1.508428997344734, variance: 3.2379215123653413, lamda: 1.5620431900024414
+
+steps: 624975, episodes: 25000, mean episode reward: 36.29146038568746, agent episode reward: [57.18, 57.18, -64.13644589908968, -13.932093715222855], time: 63.022
+steps: 624975, episodes: 25000, mean episode variance: 9.442031502842903, agent episode variance: [3.5374444333314896, 4.045754122376442, 1.0475421958565712, 0.8112907512784004], time: 63.022
+Running avgs for agent 0: q_loss: 443557.125, p_loss: -28.135250091552734, mean_rew: 0.7537109375, variance: 14.149777733325958, lamda: 1.5870473384857178
+Running avgs for agent 1: q_loss: 418594.4375, p_loss: -27.105722427368164, mean_rew: 0.748828125, variance: 16.183016489505768, lamda: 1.5870473384857178
+Running avgs for agent 2: q_loss: 38856.9921875, p_loss: 1.3850929737091064, mean_rew: -1.1894253636706107, variance: 4.190168783426285, lamda: 1.5870473384857178
+Running avgs for agent 3: q_loss: 8355.0283203125, p_loss: 3.1426899433135986, mean_rew: -1.4680660851401306, variance: 3.245163005113602, lamda: 1.5870473384857178
+
+steps: 649975, episodes: 26000, mean episode reward: 37.29218029789582, agent episode reward: [59.28, 59.28, -62.75242214720325, -18.515397554900932], time: 63.286
+steps: 649975, episodes: 26000, mean episode variance: 11.987110728055239, agent episode variance: [5.770422293186188, 4.381791711568832, 1.0119174603819847, 0.8229792629182339], time: 63.286
+Running avgs for agent 0: q_loss: 591130.3125, p_loss: -33.43816375732422, mean_rew: 0.808359375, variance: 23.081689172744753, lamda: 1.6120514869689941
+Running avgs for agent 1: q_loss: 542495.5, p_loss: -32.73942947387695, mean_rew: 0.8108203125, variance: 17.52716684627533, lamda: 1.6120514869689941
+Running avgs for agent 2: q_loss: 42427.0390625, p_loss: 1.1547516584396362, mean_rew: -1.2402240668835622, variance: 4.047669841527939, lamda: 1.6120514869689941
+Running avgs for agent 3: q_loss: 7793.06396484375, p_loss: 2.6946895122528076, mean_rew: -1.436082008843809, variance: 3.2919170516729355, lamda: 1.6120514869689941
+
+steps: 674975, episodes: 27000, mean episode reward: 26.79716487452829, agent episode reward: [56.26, 56.26, -63.4038511671351, -22.318983958336613], time: 63.178
+steps: 674975, episodes: 27000, mean episode variance: 12.09576297916472, agent episode variance: [6.106266266107559, 4.541628068208694, 0.8910227370858192, 0.5568459077626466], time: 63.179
+Running avgs for agent 0: q_loss: 751279.5, p_loss: -39.25482177734375, mean_rew: 0.8746484375, variance: 24.425065064430235, lamda: 1.6370556354522705
+Running avgs for agent 1: q_loss: 678504.0625, p_loss: -38.74795913696289, mean_rew: 0.8661328125, variance: 18.166512272834776, lamda: 1.6370556354522705
+Running avgs for agent 2: q_loss: 37662.46875, p_loss: 0.5628233551979065, mean_rew: -1.2837842693380543, variance: 3.564090948343277, lamda: 1.6370556354522705
+Running avgs for agent 3: q_loss: 7482.134765625, p_loss: 2.4866621494293213, mean_rew: -1.4033575333500912, variance: 2.2273836310505866, lamda: 1.6370556354522705
+
+steps: 699975, episodes: 28000, mean episode reward: 23.21932763350261, agent episode reward: [56.19, 56.19, -65.91707021891219, -23.24360214758522], time: 63.067
+steps: 699975, episodes: 28000, mean episode variance: 14.347377409145237, agent episode variance: [6.419611002922058, 6.309701806306839, 0.956776550769806, 0.661288049146533], time: 63.067
+Running avgs for agent 0: q_loss: 937107.25, p_loss: -44.28028106689453, mean_rew: 0.921484375, variance: 25.67844401168823, lamda: 1.6620599031448364
+Running avgs for agent 1: q_loss: 864830.8125, p_loss: -43.95641326904297, mean_rew: 0.9153125, variance: 25.238807225227355, lamda: 1.6620599031448364
+Running avgs for agent 2: q_loss: 38258.7578125, p_loss: 0.763741672039032, mean_rew: -1.3490276275569477, variance: 3.827106203079224, lamda: 1.6620599031448364
+Running avgs for agent 3: q_loss: 6736.20068359375, p_loss: 2.260833740234375, mean_rew: -1.3970939609213373, variance: 2.645152196586132, lamda: 1.6620599031448364
+
+steps: 724975, episodes: 29000, mean episode reward: 23.49614400684336, agent episode reward: [54.99, 54.99, -65.85631945204698, -20.627536541109663], time: 63.044
+steps: 724975, episodes: 29000, mean episode variance: 15.090591587424278, agent episode variance: [6.492462923049927, 7.1054217128753665, 0.9613324465751648, 0.5313745049238205], time: 63.044
+Running avgs for agent 0: q_loss: 1131104.5, p_loss: -48.46698760986328, mean_rew: 0.9587109375, variance: 25.969851692199708, lamda: 1.6870639324188232
+Running avgs for agent 1: q_loss: 1069296.625, p_loss: -48.426395416259766, mean_rew: 0.951796875, variance: 28.421686851501466, lamda: 1.6870639324188232
+Running avgs for agent 2: q_loss: 36515.21484375, p_loss: 0.5706372261047363, mean_rew: -1.3733939736762368, variance: 3.8453297863006592, lamda: 1.6870639324188232
+Running avgs for agent 3: q_loss: 7083.45166015625, p_loss: 2.2889466285705566, mean_rew: -1.3855314639762524, variance: 2.125498019695282, lamda: 1.6870639324188232
+
+steps: 749975, episodes: 30000, mean episode reward: 28.593669061945416, agent episode reward: [59.46, 59.46, -67.65691583757379, -22.66941510048078], time: 63.111
+steps: 749975, episodes: 30000, mean episode variance: 15.542434197276831, agent episode variance: [8.15993453669548, 5.72612957906723, 0.9626372452378273, 0.6937328362762928], time: 63.112
+Running avgs for agent 0: q_loss: 1351285.25, p_loss: -52.5883903503418, mean_rew: 1.0050390625, variance: 32.63973814678192, lamda: 1.7120680809020996
+Running avgs for agent 1: q_loss: 1319731.625, p_loss: -52.42250061035156, mean_rew: 1.0137890625, variance: 22.90451831626892, lamda: 1.7120680809020996
+Running avgs for agent 2: q_loss: 30313.080078125, p_loss: 0.6716775894165039, mean_rew: -1.418456808691204, variance: 3.8505489809513094, lamda: 1.7120680809020996
+Running avgs for agent 3: q_loss: 7052.7978515625, p_loss: 2.2931275367736816, mean_rew: -1.3485899110374355, variance: 2.774931345105171, lamda: 1.7120680809020996
+
+steps: 774975, episodes: 31000, mean episode reward: 40.78542591354303, agent episode reward: [63.53, 63.53, -67.16230618953425, -19.112267896922706], time: 63.284
+steps: 774975, episodes: 31000, mean episode variance: 15.90532837472856, agent episode variance: [7.045729534864425, 7.354706544399262, 0.901573927283287, 0.6033183681815862], time: 63.284
+Running avgs for agent 0: q_loss: 1588634.625, p_loss: -57.18209457397461, mean_rew: 1.06453125, variance: 28.1829181394577, lamda: 1.7370723485946655
+Running avgs for agent 1: q_loss: 1541942.0, p_loss: -56.524436950683594, mean_rew: 1.05546875, variance: 29.418826177597047, lamda: 1.7370723485946655
+Running avgs for agent 2: q_loss: 30050.82421875, p_loss: 0.05875231325626373, mean_rew: -1.4574597612795255, variance: 3.606295709133148, lamda: 1.7370723485946655
+Running avgs for agent 3: q_loss: 7170.76123046875, p_loss: 2.534074306488037, mean_rew: -1.3488433006475011, variance: 2.413273472726345, lamda: 1.7370723485946655
+
+steps: 799975, episodes: 32000, mean episode reward: 44.042876495707475, agent episode reward: [68.8, 68.8, -70.26475313088797, -23.292370373404555], time: 63.046
+steps: 799975, episodes: 32000, mean episode variance: 18.509445419088006, agent episode variance: [9.070245841503143, 7.859137400627136, 0.9111532009243966, 0.66890897603333], time: 63.047
+Running avgs for agent 0: q_loss: 1790359.0, p_loss: -61.34470748901367, mean_rew: 1.108359375, variance: 36.28098336601257, lamda: 1.7620763778686523
+Running avgs for agent 1: q_loss: 1725069.625, p_loss: -60.00507354736328, mean_rew: 1.10171875, variance: 31.436549602508546, lamda: 1.7620763778686523
+Running avgs for agent 2: q_loss: 26548.34375, p_loss: -0.012569946236908436, mean_rew: -1.503327261534713, variance: 3.6446128036975862, lamda: 1.7620763778686523
+Running avgs for agent 3: q_loss: 6231.98681640625, p_loss: 2.5495057106018066, mean_rew: -1.3202597307383255, variance: 2.67563590413332, lamda: 1.7620763778686523
+
+steps: 824975, episodes: 33000, mean episode reward: 30.166599875150602, agent episode reward: [57.04, 57.04, -62.69851411876278, -21.214886006086616], time: 63.055
+steps: 824975, episodes: 33000, mean episode variance: 23.874134769499303, agent episode variance: [10.912625942707061, 11.304679174900055, 1.0910512668192387, 0.5657783850729465], time: 63.056
+Running avgs for agent 0: q_loss: 1986973.625, p_loss: -64.58720397949219, mean_rew: 1.1556640625, variance: 43.650503770828244, lamda: 1.7870805263519287
+Running avgs for agent 1: q_loss: 1870001.0, p_loss: -63.201637268066406, mean_rew: 1.153828125, variance: 45.21871669960022, lamda: 1.7870805263519287
+Running avgs for agent 2: q_loss: 30467.671875, p_loss: 0.15643219649791718, mean_rew: -1.5416996768955238, variance: 4.364205067276955, lamda: 1.7870805263519287
+Running avgs for agent 3: q_loss: 6729.1396484375, p_loss: 2.576920509338379, mean_rew: -1.3065165389243998, variance: 2.263113540291786, lamda: 1.7870805263519287
+
+steps: 849975, episodes: 34000, mean episode reward: 32.17316075805219, agent episode reward: [56.39, 56.39, -60.11757395513827, -20.489265286809527], time: 63.061
+steps: 849975, episodes: 34000, mean episode variance: 24.25872141581774, agent episode variance: [12.558857616901397, 10.01122127199173, 1.2149516467750072, 0.47369088014960287], time: 63.062
+Running avgs for agent 0: q_loss: 2107826.0, p_loss: -66.6618881225586, mean_rew: 1.183046875, variance: 50.23543046760559, lamda: 1.8120847940444946
+Running avgs for agent 1: q_loss: 1914294.5, p_loss: -65.56925964355469, mean_rew: 1.1887890625, variance: 40.04488508796692, lamda: 1.8120847940444946
+Running avgs for agent 2: q_loss: 30895.80859375, p_loss: 0.30196473002433777, mean_rew: -1.5756385597026445, variance: 4.859806587100029, lamda: 1.8120847940444946
+Running avgs for agent 3: q_loss: 8009.17333984375, p_loss: 2.3449113368988037, mean_rew: -1.2972448760968496, variance: 1.8947635205984115, lamda: 1.8120847940444946
+
+steps: 874975, episodes: 35000, mean episode reward: 26.84650596793035, agent episode reward: [48.68, 48.68, -50.96331599981258, -19.550178032257072], time: 63.146
+steps: 874975, episodes: 35000, mean episode variance: 21.854314400702716, agent episode variance: [11.391190420150757, 8.764983786582947, 1.2177680386900902, 0.48037215527892113], time: 63.146
+Running avgs for agent 0: q_loss: 2208955.25, p_loss: -68.30115509033203, mean_rew: 1.215390625, variance: 45.56476168060303, lamda: 1.8370888233184814
+Running avgs for agent 1: q_loss: 1983793.375, p_loss: -67.33015441894531, mean_rew: 1.2123046875, variance: 35.05993514633179, lamda: 1.8370888233184814
+Running avgs for agent 2: q_loss: 32322.3984375, p_loss: 0.2924036383628845, mean_rew: -1.5734349627709185, variance: 4.871072154760361, lamda: 1.8370888233184814
+Running avgs for agent 3: q_loss: 6623.82421875, p_loss: 2.1649184226989746, mean_rew: -1.2845162628196602, variance: 1.9214886211156845, lamda: 1.8370888233184814
+
+steps: 899975, episodes: 36000, mean episode reward: 14.351214342949708, agent episode reward: [34.66, 34.66, -39.0083569756704, -15.960428681379888], time: 63.006
+steps: 899975, episodes: 36000, mean episode variance: 21.425393659353258, agent episode variance: [10.250524923801422, 8.91894173192978, 1.7794156099557876, 0.4765113936662674], time: 63.006
+Running avgs for agent 0: q_loss: 2267842.0, p_loss: -69.49943542480469, mean_rew: 1.2237109375, variance: 41.002099695205686, lamda: 1.8620929718017578
+Running avgs for agent 1: q_loss: 2056371.0, p_loss: -69.00031280517578, mean_rew: 1.2289453125, variance: 35.67576692771912, lamda: 1.8620929718017578
+Running avgs for agent 2: q_loss: 36602.85546875, p_loss: 3.0202407836914062, mean_rew: -1.6077483447091896, variance: 7.1176624398231505, lamda: 1.8620929718017578
+Running avgs for agent 3: q_loss: 5817.4169921875, p_loss: 2.4772114753723145, mean_rew: -1.270016073941302, variance: 1.9060455746650695, lamda: 1.8620929718017578
+
+steps: 924975, episodes: 37000, mean episode reward: -9.701110221151826, agent episode reward: [19.26, 19.26, -32.41992837191593, -15.801181849235897], time: 63.129
+steps: 924975, episodes: 37000, mean episode variance: 21.858931953310968, agent episode variance: [9.383223477363586, 10.320030905246735, 1.5952903679609298, 0.5603872027397155], time: 63.129
+Running avgs for agent 0: q_loss: 2380490.25, p_loss: -69.1615219116211, mean_rew: 1.232421875, variance: 37.532893909454344, lamda: 1.8870972394943237
+Running avgs for agent 1: q_loss: 2059818.0, p_loss: -68.6659927368164, mean_rew: 1.2147265625, variance: 41.28012362098694, lamda: 1.8870972394943237
+Running avgs for agent 2: q_loss: 56884.78125, p_loss: 6.732901573181152, mean_rew: -1.5988238688605767, variance: 6.381161471843719, lamda: 1.8870972394943237
+Running avgs for agent 3: q_loss: 6126.15478515625, p_loss: 2.7493083477020264, mean_rew: -1.2584447343500378, variance: 2.241548810958862, lamda: 1.8870972394943237
+
+steps: 949975, episodes: 38000, mean episode reward: 3.345613028352523, agent episode reward: [30.05, 30.05, -40.408819449434745, -16.345567522212725], time: 63.294
+steps: 949975, episodes: 38000, mean episode variance: 20.912893280886113, agent episode variance: [11.064111536502837, 7.357014093875885, 1.8747755361795426, 0.616992114327848], time: 63.294
+Running avgs for agent 0: q_loss: 2079947.875, p_loss: -66.1637954711914, mean_rew: 1.205859375, variance: 44.25644614601135, lamda: 1.9121012687683105
+Running avgs for agent 1: q_loss: 1709542.625, p_loss: -65.6143569946289, mean_rew: 1.219140625, variance: 29.42805637550354, lamda: 1.9121012687683105
+Running avgs for agent 2: q_loss: 75650.8125, p_loss: 7.564165115356445, mean_rew: -1.581797688871918, variance: 7.4991021447181705, lamda: 1.9121012687683105
+Running avgs for agent 3: q_loss: 6296.44189453125, p_loss: 2.4715757369995117, mean_rew: -1.2335445724496754, variance: 2.467968457311392, lamda: 1.9121012687683105
+
+steps: 974975, episodes: 39000, mean episode reward: -10.266806480258243, agent episode reward: [21.99, 21.99, -32.001832724338755, -22.244973755919492], time: 63.467
+steps: 974975, episodes: 39000, mean episode variance: 19.30960857826471, agent episode variance: [10.028209655761719, 7.169826826572418, 1.4903979659676552, 0.6211741299629211], time: 63.467
+Running avgs for agent 0: q_loss: 1724557.0, p_loss: -61.354496002197266, mean_rew: 1.2147265625, variance: 40.112838623046876, lamda: 1.937105417251587
+Running avgs for agent 1: q_loss: 1407665.125, p_loss: -60.88981628417969, mean_rew: 1.198984375, variance: 28.679307306289672, lamda: 1.937105417251587
+Running avgs for agent 2: q_loss: 98174.375, p_loss: 7.7991862297058105, mean_rew: -1.5827198738883934, variance: 5.961591863870621, lamda: 1.937105417251587
+Running avgs for agent 3: q_loss: 6820.0771484375, p_loss: 3.110142469406128, mean_rew: -1.2161408571676064, variance: 2.4846965198516844, lamda: 1.937105417251587
+
+steps: 999975, episodes: 40000, mean episode reward: -2.5611507801385254, agent episode reward: [24.06, 24.06, -29.754434284822782, -20.92671649531574], time: 63.561
+steps: 999975, episodes: 40000, mean episode variance: 16.252458540707828, agent episode variance: [7.847080629110336, 5.753133901596069, 1.9093139209747314, 0.7429300890266896], time: 63.562
+Running avgs for agent 0: q_loss: 1444285.875, p_loss: -57.20177459716797, mean_rew: 1.188828125, variance: 31.388322516441345, lamda: 1.9621095657348633
+Running avgs for agent 1: q_loss: 1158204.875, p_loss: -56.57175064086914, mean_rew: 1.20421875, variance: 23.012535606384276, lamda: 1.9621095657348633
+Running avgs for agent 2: q_loss: 119928.8984375, p_loss: 8.11902141571045, mean_rew: -1.563497917226684, variance: 7.637255683898926, lamda: 1.9621095657348633
+Running avgs for agent 3: q_loss: 8118.49169921875, p_loss: 3.100351095199585, mean_rew: -1.2204744366572091, variance: 2.971720356106758, lamda: 1.9621095657348633
+
+steps: 1024975, episodes: 41000, mean episode reward: 4.985390246676657, agent episode reward: [26.26, 26.26, -27.213184860885782, -20.32142489243756], time: 63.31
+steps: 1024975, episodes: 41000, mean episode variance: 14.936296874031424, agent episode variance: [6.010209100723267, 6.858772071838379, 1.483998442530632, 0.583317258939147], time: 63.31
+Running avgs for agent 0: q_loss: 1310014.25, p_loss: -54.79961013793945, mean_rew: 1.2206640625, variance: 24.040836402893067, lamda: 1.9871137142181396
+Running avgs for agent 1: q_loss: 1017417.875, p_loss: -53.4789924621582, mean_rew: 1.2001953125, variance: 27.435088287353516, lamda: 1.9871137142181396
+Running avgs for agent 2: q_loss: 141266.34375, p_loss: 8.352603912353516, mean_rew: -1.5794436398142897, variance: 5.935993770122528, lamda: 1.9871137142181396
+Running avgs for agent 3: q_loss: 6784.11767578125, p_loss: 3.296586513519287, mean_rew: -1.2137255164452567, variance: 2.333269035756588, lamda: 1.9871137142181396
+
+steps: 1049975, episodes: 42000, mean episode reward: 6.07726330137538, agent episode reward: [18.16, 18.16, -18.747866791033644, -11.494869907590976], time: 63.613
+steps: 1049975, episodes: 42000, mean episode variance: 15.324822491765023, agent episode variance: [7.015539044857025, 5.281456968307495, 2.1254437001943587, 0.9023827784061432], time: 63.614
+Running avgs for agent 0: q_loss: 1232681.5, p_loss: -52.434913635253906, mean_rew: 1.2346875, variance: 28.0621561794281, lamda: 2.012103319168091
+Running avgs for agent 1: q_loss: 959329.8125, p_loss: -51.20008850097656, mean_rew: 1.228125, variance: 21.12582787322998, lamda: 2.012103319168091
+Running avgs for agent 2: q_loss: 171218.578125, p_loss: 8.331375122070312, mean_rew: -1.5474848233367748, variance: 8.501774800777435, lamda: 2.012103319168091
+Running avgs for agent 3: q_loss: 6525.9189453125, p_loss: 3.5237278938293457, mean_rew: -1.1783858508963183, variance: 3.609531113624573, lamda: 2.012103319168091
+
+steps: 1074975, episodes: 43000, mean episode reward: 13.495636106748782, agent episode reward: [24.37, 24.37, -23.280388084346892, -11.963975808904324], time: 63.212
+steps: 1074975, episodes: 43000, mean episode variance: 13.806833039447666, agent episode variance: [5.939786111831665, 5.11685201048851, 2.107748334527016, 0.6424465826004744], time: 63.212
+Running avgs for agent 0: q_loss: 1137163.75, p_loss: -50.27112579345703, mean_rew: 1.2508203125, variance: 23.75914444732666, lamda: 2.0370776653289795
+Running avgs for agent 1: q_loss: 902380.0625, p_loss: -49.336055755615234, mean_rew: 1.24109375, variance: 20.46740804195404, lamda: 2.0370776653289795
+Running avgs for agent 2: q_loss: 174393.40625, p_loss: 7.671387195587158, mean_rew: -1.4676086954664398, variance: 8.430993338108063, lamda: 2.0370776653289795
+Running avgs for agent 3: q_loss: 4380.951171875, p_loss: 3.2114243507385254, mean_rew: -1.1466686301652376, variance: 2.5697863304018975, lamda: 2.0370776653289795
+
+steps: 1099975, episodes: 44000, mean episode reward: 5.393978207776814, agent episode reward: [18.41, 18.41, -21.410503033354587, -10.015518758868595], time: 63.259
+steps: 1099975, episodes: 44000, mean episode variance: 13.01011849950254, agent episode variance: [5.095054054021835, 5.531372458219528, 1.6622958846092224, 0.7213961026519538], time: 63.259
+Running avgs for agent 0: q_loss: 1011536.625, p_loss: -47.948829650878906, mean_rew: 1.269765625, variance: 20.38021621608734, lamda: 2.062052011489868
+Running avgs for agent 1: q_loss: 870237.5625, p_loss: -47.30335235595703, mean_rew: 1.2631640625, variance: 22.125489832878113, lamda: 2.062052011489868
+Running avgs for agent 2: q_loss: 182278.265625, p_loss: 7.527978420257568, mean_rew: -1.443805322657674, variance: 6.64918353843689, lamda: 2.062052011489868
+Running avgs for agent 3: q_loss: 5658.69970703125, p_loss: 2.6672472953796387, mean_rew: -1.1091907321316479, variance: 2.885584410607815, lamda: 2.062052011489868
+
+steps: 1124975, episodes: 45000, mean episode reward: -2.2768883825832056, agent episode reward: [11.92, 11.92, -14.971783031736456, -11.145105350846748], time: 63.278
+steps: 1124975, episodes: 45000, mean episode variance: 12.37024380468577, agent episode variance: [5.7406071002483365, 4.244155264258385, 1.7720762592554093, 0.6134051809236407], time: 63.279
+Running avgs for agent 0: q_loss: 922793.625, p_loss: -45.83910369873047, mean_rew: 1.2698828125, variance: 22.962428400993346, lamda: 2.087026357650757
+Running avgs for agent 1: q_loss: 821617.4375, p_loss: -45.178977966308594, mean_rew: 1.2768359375, variance: 16.97662105703354, lamda: 2.087026357650757
+Running avgs for agent 2: q_loss: 206153.59375, p_loss: 7.773276329040527, mean_rew: -1.4360395292570465, variance: 7.088305037021637, lamda: 2.087026357650757
+Running avgs for agent 3: q_loss: 5077.005859375, p_loss: 2.305098533630371, mean_rew: -1.0779919163085179, variance: 2.453620723694563, lamda: 2.087026357650757
+
+steps: 1149975, episodes: 46000, mean episode reward: -3.276417734807761, agent episode reward: [11.08, 11.08, -12.364870163443658, -13.071547571364103], time: 63.41
+steps: 1149975, episodes: 46000, mean episode variance: 13.513986503452063, agent episode variance: [5.959608250141144, 4.706196364045143, 2.245622075796127, 0.6025598134696484], time: 63.41
+Running avgs for agent 0: q_loss: 836960.3125, p_loss: -43.566436767578125, mean_rew: 1.2822265625, variance: 23.838433000564574, lamda: 2.1120007038116455
+Running avgs for agent 1: q_loss: 745634.6875, p_loss: -42.81145477294922, mean_rew: 1.2724609375, variance: 18.82478545618057, lamda: 2.1120007038116455
+Running avgs for agent 2: q_loss: 231382.859375, p_loss: 7.798611164093018, mean_rew: -1.4396346656439765, variance: 8.982488303184509, lamda: 2.1120007038116455
+Running avgs for agent 3: q_loss: 4966.70947265625, p_loss: 2.5600998401641846, mean_rew: -1.0379021913350819, variance: 2.4102392538785935, lamda: 2.1120007038116455
+
+steps: 1174975, episodes: 47000, mean episode reward: -2.874375443364993, agent episode reward: [10.75, 10.75, -12.707810182655598, -11.666565260709394], time: 63.382
+steps: 1174975, episodes: 47000, mean episode variance: 11.795227676600218, agent episode variance: [4.7279093222618105, 4.526243991732597, 1.892347045302391, 0.6487273173034191], time: 63.383
+Running avgs for agent 0: q_loss: 710846.125, p_loss: -40.78887176513672, mean_rew: 1.270390625, variance: 18.911637289047242, lamda: 2.136975049972534
+Running avgs for agent 1: q_loss: 657422.5, p_loss: -40.77708053588867, mean_rew: 1.288828125, variance: 18.10497596693039, lamda: 2.136975049972534
+Running avgs for agent 2: q_loss: 251134.65625, p_loss: 7.623574256896973, mean_rew: -1.4306228331084379, variance: 7.569388181209564, lamda: 2.136975049972534
+Running avgs for agent 3: q_loss: 4608.62744140625, p_loss: 2.278836488723755, mean_rew: -1.0082437284282195, variance: 2.5949092692136766, lamda: 2.136975049972534
+
+steps: 1199975, episodes: 48000, mean episode reward: -3.3843237346117494, agent episode reward: [10.96, 10.96, -12.904920563487808, -12.399403171123945], time: 63.3
+steps: 1199975, episodes: 48000, mean episode variance: 10.526479231268167, agent episode variance: [4.096055786967278, 4.154267301321029, 1.7321713635921479, 0.5439847793877125], time: 63.301
+Running avgs for agent 0: q_loss: 649630.25, p_loss: -38.061676025390625, mean_rew: 1.29953125, variance: 16.38422314786911, lamda: 2.161949396133423
+Running avgs for agent 1: q_loss: 581884.8125, p_loss: -38.80531692504883, mean_rew: 1.2909375, variance: 16.617069205284118, lamda: 2.161949396133423
+Running avgs for agent 2: q_loss: 257487.15625, p_loss: 7.609857082366943, mean_rew: -1.4303479962200163, variance: 6.928685454368591, lamda: 2.161949396133423
+Running avgs for agent 3: q_loss: 4054.493408203125, p_loss: 2.1478593349456787, mean_rew: -0.981695224937858, variance: 2.17593911755085, lamda: 2.161949396133423
+
+steps: 1224975, episodes: 49000, mean episode reward: -1.5648762296092489, agent episode reward: [10.88, 10.88, -10.732216130546261, -12.592660099062988], time: 63.831
+steps: 1224975, episodes: 49000, mean episode variance: 10.809653550297021, agent episode variance: [4.135371722221374, 4.040046645760536, 2.1026682995557784, 0.5315668827593326], time: 63.831
+Running avgs for agent 0: q_loss: 600633.125, p_loss: -35.62509536743164, mean_rew: 1.2903515625, variance: 16.541486888885498, lamda: 2.1869237422943115
+Running avgs for agent 1: q_loss: 530138.0, p_loss: -36.82106018066406, mean_rew: 1.28625, variance: 16.160186583042144, lamda: 2.1869237422943115
+Running avgs for agent 2: q_loss: 262614.8125, p_loss: 7.212400913238525, mean_rew: -1.4434452500565709, variance: 8.410673198223114, lamda: 2.1869237422943115
+Running avgs for agent 3: q_loss: 4002.1240234375, p_loss: 1.9234458208084106, mean_rew: -0.9636999234465748, variance: 2.1262675310373305, lamda: 2.1869237422943115
+
+steps: 1249975, episodes: 50000, mean episode reward: -2.0997913015758476, agent episode reward: [11.15, 11.15, -8.762394082166459, -15.63739721940939], time: 64.408
+steps: 1249975, episodes: 50000, mean episode variance: 9.571365773454309, agent episode variance: [3.989574862599373, 3.4634499423503877, 1.5976039451360702, 0.5207370233684778], time: 64.409
+Running avgs for agent 0: q_loss: 578668.8125, p_loss: -33.61636734008789, mean_rew: 1.3004296875, variance: 15.958299450397492, lamda: 2.2118980884552
+Running avgs for agent 1: q_loss: 496273.875, p_loss: -34.856544494628906, mean_rew: 1.2840625, variance: 13.853799769401551, lamda: 2.2118980884552
+Running avgs for agent 2: q_loss: 254401.96875, p_loss: 6.7824788093566895, mean_rew: -1.442681229190563, variance: 6.390415780544281, lamda: 2.2118980884552
+Running avgs for agent 3: q_loss: 4173.23193359375, p_loss: 1.87540864944458, mean_rew: -0.9526500135145277, variance: 2.0829480934739113, lamda: 2.2118980884552
+
+steps: 1274975, episodes: 51000, mean episode reward: 4.593327474598298, agent episode reward: [16.97, 16.97, -7.869097415891356, -21.477575109510347], time: 63.644
+steps: 1274975, episodes: 51000, mean episode variance: 9.963491727948188, agent episode variance: [3.9404750083684923, 3.7225403850078584, 1.7359072207808495, 0.564569113790989], time: 63.645
+Running avgs for agent 0: q_loss: 534200.125, p_loss: -31.630741119384766, mean_rew: 1.2959765625, variance: 15.76190003347397, lamda: 2.236872673034668
+Running avgs for agent 1: q_loss: 459310.1875, p_loss: -33.074188232421875, mean_rew: 1.32453125, variance: 14.890161540031434, lamda: 2.236872673034668
+Running avgs for agent 2: q_loss: 222922.171875, p_loss: 6.1770830154418945, mean_rew: -1.4422306918864134, variance: 6.943628883123398, lamda: 2.236872673034668
+Running avgs for agent 3: q_loss: 3720.986083984375, p_loss: 1.8768147230148315, mean_rew: -0.9201503823369784, variance: 2.258276455163956, lamda: 2.236872673034668
+
+steps: 1299975, episodes: 52000, mean episode reward: 10.619584476498098, agent episode reward: [19.68, 19.68, -7.559783571185828, -21.180631952316073], time: 63.569
+steps: 1299975, episodes: 52000, mean episode variance: 8.061364352732896, agent episode variance: [2.9496339275836942, 2.9497690279483795, 1.6146743521094322, 0.5472870450913906], time: 63.569
+Running avgs for agent 0: q_loss: 480996.15625, p_loss: -29.94727897644043, mean_rew: 1.3169140625, variance: 11.798535710334777, lamda: 2.2618467807769775
+Running avgs for agent 1: q_loss: 416900.03125, p_loss: -31.553800582885742, mean_rew: 1.322890625, variance: 11.799076111793518, lamda: 2.2618467807769775
+Running avgs for agent 2: q_loss: 210282.078125, p_loss: 5.990950107574463, mean_rew: -1.4424416423616586, variance: 6.458697408437729, lamda: 2.2618467807769775
+Running avgs for agent 3: q_loss: 3905.600830078125, p_loss: 1.7090860605239868, mean_rew: -0.8855507863775838, variance: 2.1891481803655624, lamda: 2.2618467807769775
+
+steps: 1324975, episodes: 53000, mean episode reward: 9.517674932929266, agent episode reward: [20.82, 20.82, -7.134905190338514, -24.98741987673222], time: 63.37
+steps: 1324975, episodes: 53000, mean episode variance: 8.642755554765463, agent episode variance: [3.3575812485218046, 3.046406419754028, 1.6375194407701492, 0.6012484457194806], time: 63.37
+Running avgs for agent 0: q_loss: 440801.9375, p_loss: -28.346132278442383, mean_rew: 1.32265625, variance: 13.430324994087218, lamda: 2.2868213653564453
+Running avgs for agent 1: q_loss: 386246.125, p_loss: -30.435184478759766, mean_rew: 1.3236328125, variance: 12.185625679016113, lamda: 2.2868213653564453
+Running avgs for agent 2: q_loss: 195361.984375, p_loss: 5.75594425201416, mean_rew: -1.4503646720762318, variance: 6.550077763080597, lamda: 2.2868213653564453
+Running avgs for agent 3: q_loss: 3582.727783203125, p_loss: 1.4949290752410889, mean_rew: -0.8584102854048856, variance: 2.404993782877922, lamda: 2.2868213653564453
+
+steps: 1349975, episodes: 54000, mean episode reward: 12.374963247913497, agent episode reward: [22.05, 22.05, -7.9629953811677, -23.762041370918805], time: 63.789
+steps: 1349975, episodes: 54000, mean episode variance: 7.5402870833873745, agent episode variance: [2.951299515128136, 2.4683823890686036, 1.608594406247139, 0.5120107729434967], time: 63.79
+Running avgs for agent 0: q_loss: 374152.4375, p_loss: -27.00635528564453, mean_rew: 1.3378125, variance: 11.805198060512543, lamda: 2.311795711517334
+Running avgs for agent 1: q_loss: 353851.53125, p_loss: -29.457447052001953, mean_rew: 1.34203125, variance: 9.873529556274415, lamda: 2.311795711517334
+Running avgs for agent 2: q_loss: 181586.3125, p_loss: 5.636127948760986, mean_rew: -1.4438803697068097, variance: 6.434377624988556, lamda: 2.311795711517334
+Running avgs for agent 3: q_loss: 4868.9794921875, p_loss: 1.490121841430664, mean_rew: -0.8301292146920021, variance: 2.048043091773987, lamda: 2.311795711517334
+
+steps: 1374975, episodes: 55000, mean episode reward: 2.342390384277457, agent episode reward: [16.05, 16.05, -7.058201154889575, -22.699408460832966], time: 63.722
+steps: 1374975, episodes: 55000, mean episode variance: 7.906924068391323, agent episode variance: [2.862507338523865, 3.0431334121227263, 1.3592502067685128, 0.6420331109762192], time: 63.722
+Running avgs for agent 0: q_loss: 342581.5625, p_loss: -26.02474594116211, mean_rew: 1.3519921875, variance: 11.45002935409546, lamda: 2.3367698192596436
+Running avgs for agent 1: q_loss: 352007.9375, p_loss: -28.721738815307617, mean_rew: 1.3534765625, variance: 12.172533648490905, lamda: 2.3367698192596436
+Running avgs for agent 2: q_loss: 164981.546875, p_loss: 5.352795600891113, mean_rew: -1.4408606554943637, variance: 5.437000827074051, lamda: 2.3367698192596436
+Running avgs for agent 3: q_loss: 4124.068359375, p_loss: 1.7127141952514648, mean_rew: -0.8344412821068413, variance: 2.5681324439048767, lamda: 2.3367698192596436
+
+steps: 1399975, episodes: 56000, mean episode reward: 11.856130099778678, agent episode reward: [22.06, 22.06, -6.855227545740354, -25.40864235448097], time: 63.602
+steps: 1399975, episodes: 56000, mean episode variance: 7.139873691461981, agent episode variance: [2.5551579527854917, 2.679915466785431, 1.2910085607767106, 0.6137917111143469], time: 63.603
+Running avgs for agent 0: q_loss: 332336.375, p_loss: -25.52351188659668, mean_rew: 1.346328125, variance: 10.220631811141967, lamda: 2.3617441654205322
+Running avgs for agent 1: q_loss: 339831.65625, p_loss: -28.18445587158203, mean_rew: 1.342265625, variance: 10.719661867141724, lamda: 2.3617441654205322
+Running avgs for agent 2: q_loss: 159524.28125, p_loss: 4.852676868438721, mean_rew: -1.4391091602096173, variance: 5.164034243106842, lamda: 2.3617441654205322
+Running avgs for agent 3: q_loss: 4023.021728515625, p_loss: 1.5082429647445679, mean_rew: -0.8161928086172285, variance: 2.4551668444573878, lamda: 2.3617441654205322
+
+steps: 1424975, episodes: 57000, mean episode reward: -4.598946035030025, agent episode reward: [14.61, 14.61, -8.423943986901344, -25.395002048128685], time: 63.512
+steps: 1424975, episodes: 57000, mean episode variance: 7.403082484006882, agent episode variance: [2.6681248462200164, 2.750346310734749, 1.2942150110900401, 0.6903963159620762], time: 63.513
+Running avgs for agent 0: q_loss: 333703.78125, p_loss: -25.305784225463867, mean_rew: 1.3519921875, variance: 10.672499384880066, lamda: 2.386718511581421
+Running avgs for agent 1: q_loss: 335330.1875, p_loss: -27.80971908569336, mean_rew: 1.3394921875, variance: 11.001385242938996, lamda: 2.386718511581421
+Running avgs for agent 2: q_loss: 150033.75, p_loss: 4.221920967102051, mean_rew: -1.423180006523773, variance: 5.1768600443601605, lamda: 2.386718511581421
+Running avgs for agent 3: q_loss: 4251.0498046875, p_loss: 1.5420705080032349, mean_rew: -0.7947297263812341, variance: 2.7615852638483047, lamda: 2.386718511581421
+
+steps: 1449975, episodes: 58000, mean episode reward: 7.120408063566809, agent episode reward: [20.99, 20.99, -7.21215276145256, -27.64743917498063], time: 63.554
+steps: 1449975, episodes: 58000, mean episode variance: 7.035395115584135, agent episode variance: [2.4256750395298003, 2.6142819674015043, 1.325935972481966, 0.6695021361708641], time: 63.554
+Running avgs for agent 0: q_loss: 339673.65625, p_loss: -25.124258041381836, mean_rew: 1.33453125, variance: 9.702700158119201, lamda: 2.4116928577423096
+Running avgs for agent 1: q_loss: 343084.53125, p_loss: -27.50279426574707, mean_rew: 1.350859375, variance: 10.457127869606017, lamda: 2.4116928577423096
+Running avgs for agent 2: q_loss: 143142.21875, p_loss: 3.789005756378174, mean_rew: -1.404847410512266, variance: 5.303743889927864, lamda: 2.4116928577423096
+Running avgs for agent 3: q_loss: 5319.9501953125, p_loss: 2.0586295127868652, mean_rew: -0.7667762979351191, variance: 2.6780085446834563, lamda: 2.4116928577423096
+
+steps: 1474975, episodes: 59000, mean episode reward: 3.5591909712265943, agent episode reward: [22.69, 22.69, -5.319184070908821, -36.50162495786458], time: 63.633
+steps: 1474975, episodes: 59000, mean episode variance: 6.391842812538147, agent episode variance: [2.267105620622635, 2.406983231186867, 1.1416757766604424, 0.576078184068203], time: 63.633
+Running avgs for agent 0: q_loss: 345137.25, p_loss: -24.927017211914062, mean_rew: 1.329140625, variance: 9.06842248249054, lamda: 2.4366674423217773
+Running avgs for agent 1: q_loss: 351243.53125, p_loss: -27.157316207885742, mean_rew: 1.3473046875, variance: 9.627932924747467, lamda: 2.4366674423217773
+Running avgs for agent 2: q_loss: 136297.421875, p_loss: 3.459395408630371, mean_rew: -1.3835423360874566, variance: 4.56670310664177, lamda: 2.4366674423217773
+Running avgs for agent 3: q_loss: 7777.80859375, p_loss: 2.9698588848114014, mean_rew: -0.7397624052004556, variance: 2.304312736272812, lamda: 2.4366674423217773
+
+steps: 1499975, episodes: 60000, mean episode reward: 20.66649782890387, agent episode reward: [36.12, 36.12, -5.706698490928345, -45.866803680167784], time: 63.887
+steps: 1499975, episodes: 60000, mean episode variance: 6.943123320877552, agent episode variance: [2.5663153836727144, 2.498372622489929, 1.199200852036476, 0.6792344626784325], time: 63.887
+Running avgs for agent 0: q_loss: 365781.9375, p_loss: -24.939476013183594, mean_rew: 1.3294140625, variance: 10.265261534690858, lamda: 2.461641550064087
+Running avgs for agent 1: q_loss: 357906.5, p_loss: -26.65821075439453, mean_rew: 1.3294140625, variance: 9.993490489959717, lamda: 2.461641550064087
+Running avgs for agent 2: q_loss: 127185.890625, p_loss: 3.167621374130249, mean_rew: -1.3490633985671245, variance: 4.796803408145904, lamda: 2.461641550064087
+Running avgs for agent 3: q_loss: 11796.0078125, p_loss: 3.930537700653076, mean_rew: -0.7577419053696512, variance: 2.71693785071373, lamda: 2.461641550064087
+
+steps: 1524975, episodes: 61000, mean episode reward: -7.466091068609754, agent episode reward: [16.33, 16.33, -6.65467384017601, -33.47141722843374], time: 64.215
+steps: 1524975, episodes: 61000, mean episode variance: 7.277670068278908, agent episode variance: [2.870402337908745, 2.5556882923841475, 1.0663175347447396, 0.7852619032412768], time: 64.215
+Running avgs for agent 0: q_loss: 361609.1875, p_loss: -24.234128952026367, mean_rew: 1.3092578125, variance: 11.48160935163498, lamda: 2.4866158962249756
+Running avgs for agent 1: q_loss: 342899.71875, p_loss: -25.522851943969727, mean_rew: 1.3190234375, variance: 10.22275316953659, lamda: 2.4866158962249756
+Running avgs for agent 2: q_loss: 124118.15625, p_loss: 3.0373287200927734, mean_rew: -1.3125560996592092, variance: 4.265270138978958, lamda: 2.4866158962249756
+Running avgs for agent 3: q_loss: 22369.236328125, p_loss: 4.449254512786865, mean_rew: -0.7793607976507834, variance: 3.141047612965107, lamda: 2.4866158962249756
+
+steps: 1549975, episodes: 62000, mean episode reward: -7.740433730194578, agent episode reward: [11.46, 11.46, -8.240242000586848, -22.42019172960773], time: 64.49
+steps: 1549975, episodes: 62000, mean episode variance: 6.617382138639688, agent episode variance: [2.28175768956542, 2.2179577966928483, 1.0965031381845474, 1.0211635141968727], time: 64.49
+Running avgs for agent 0: q_loss: 347841.875, p_loss: -22.985471725463867, mean_rew: 1.272734375, variance: 9.12703075826168, lamda: 2.5115902423858643
+Running avgs for agent 1: q_loss: 310881.65625, p_loss: -24.264738082885742, mean_rew: 1.298046875, variance: 8.871831186771393, lamda: 2.5115902423858643
+Running avgs for agent 2: q_loss: 117657.6953125, p_loss: 3.116112232208252, mean_rew: -1.270090227690286, variance: 4.3860125527381895, lamda: 2.5115902423858643
+Running avgs for agent 3: q_loss: 38916.56640625, p_loss: 4.932967185974121, mean_rew: -0.7966739168834871, variance: 4.084654056787491, lamda: 2.5115902423858643
+
+steps: 1574975, episodes: 63000, mean episode reward: -6.018581516588863, agent episode reward: [7.98, 7.98, -9.955878266326174, -12.02270325026269], time: 64.002
+steps: 1574975, episodes: 63000, mean episode variance: 6.217700841844082, agent episode variance: [2.244586193919182, 1.936784607708454, 1.0470255549550056, 0.9893044852614403], time: 64.003
+Running avgs for agent 0: q_loss: 339381.8125, p_loss: -22.496559143066406, mean_rew: 1.2425390625, variance: 8.978344775676728, lamda: 2.536564588546753
+Running avgs for agent 1: q_loss: 294507.0, p_loss: -23.572126388549805, mean_rew: 1.255234375, variance: 7.747138430833816, lamda: 2.536564588546753
+Running avgs for agent 2: q_loss: 116403.96875, p_loss: 3.1075165271759033, mean_rew: -1.221153574211286, variance: 4.188102219820022, lamda: 2.536564588546753
+Running avgs for agent 3: q_loss: 49801.2890625, p_loss: 5.016351699829102, mean_rew: -0.7946752760082282, variance: 3.9572179410457613, lamda: 2.536564588546753
+
+steps: 1599975, episodes: 64000, mean episode reward: -1.0672075831908658, agent episode reward: [10.05, 10.05, -9.147496009573738, -12.01971157361713], time: 63.849
+steps: 1599975, episodes: 64000, mean episode variance: 6.498695229053498, agent episode variance: [2.3292786630392075, 1.9515429323911666, 1.1331348437666893, 1.0847387898564338], time: 63.85
+Running avgs for agent 0: q_loss: 331317.71875, p_loss: -22.651811599731445, mean_rew: 1.2126953125, variance: 9.31711465215683, lamda: 2.5615391731262207
+Running avgs for agent 1: q_loss: 284958.65625, p_loss: -23.254756927490234, mean_rew: 1.2098828125, variance: 7.806171729564666, lamda: 2.5615391731262207
+Running avgs for agent 2: q_loss: 108152.1328125, p_loss: 2.6600751876831055, mean_rew: -1.167573982471331, variance: 4.532539375066757, lamda: 2.5615391731262207
+Running avgs for agent 3: q_loss: 60195.3828125, p_loss: 5.422004699707031, mean_rew: -0.8037430050953485, variance: 4.338955159425735, lamda: 2.5615391731262207
+
+steps: 1624975, episodes: 65000, mean episode reward: -0.06484516736473779, agent episode reward: [7.46, 7.46, -7.549507458350099, -7.4353377090146395], time: 64.309
+steps: 1624975, episodes: 65000, mean episode variance: 6.0213490540683265, agent episode variance: [2.091542496442795, 1.9849572176933288, 0.7220916139781475, 1.2227577259540559], time: 64.31
+Running avgs for agent 0: q_loss: 322255.5, p_loss: -22.8796329498291, mean_rew: 1.159609375, variance: 8.36616998577118, lamda: 2.5865135192871094
+Running avgs for agent 1: q_loss: 283392.71875, p_loss: -22.951976776123047, mean_rew: 1.156875, variance: 7.939828870773315, lamda: 2.5865135192871094
+Running avgs for agent 2: q_loss: 89354.9609375, p_loss: 2.4119584560394287, mean_rew: -1.122088524835441, variance: 2.88836645591259, lamda: 2.5865135192871094
+Running avgs for agent 3: q_loss: 62900.54296875, p_loss: 5.372158527374268, mean_rew: -0.7947115944224667, variance: 4.891030903816223, lamda: 2.5865135192871094
+
+steps: 1649975, episodes: 66000, mean episode reward: -1.1604115732960916, agent episode reward: [7.83, 7.83, -8.882760942003483, -7.937650631292607], time: 63.898
+steps: 1649975, episodes: 66000, mean episode variance: 5.810281299322844, agent episode variance: [2.2437924996614456, 1.886608416557312, 0.7511056753098965, 0.9287747077941895], time: 63.898
+Running avgs for agent 0: q_loss: 305075.40625, p_loss: -22.941295623779297, mean_rew: 1.1075390625, variance: 8.975169998645782, lamda: 2.611487627029419
+Running avgs for agent 1: q_loss: 267380.875, p_loss: -22.50121307373047, mean_rew: 1.1, variance: 7.546433666229248, lamda: 2.611487627029419
+Running avgs for agent 2: q_loss: 79106.078125, p_loss: 1.98287832736969, mean_rew: -1.0576557344967155, variance: 3.004422701239586, lamda: 2.611487627029419
+Running avgs for agent 3: q_loss: 68999.5546875, p_loss: 5.281397342681885, mean_rew: -0.7971026842341056, variance: 3.715098831176758, lamda: 2.611487627029419
+
+steps: 1674975, episodes: 67000, mean episode reward: -1.5562028349468846, agent episode reward: [8.72, 8.72, -9.825766385957563, -9.170436448989323], time: 63.862
+steps: 1674975, episodes: 67000, mean episode variance: 5.367926788449288, agent episode variance: [1.8841619250774384, 1.8474589846134186, 0.6272200043797493, 1.0090858743786812], time: 63.863
+Running avgs for agent 0: q_loss: 281039.75, p_loss: -22.444990158081055, mean_rew: 1.0557421875, variance: 7.536647700309754, lamda: 2.6364619731903076
+Running avgs for agent 1: q_loss: 248185.1875, p_loss: -21.707256317138672, mean_rew: 1.053671875, variance: 7.3898359384536745, lamda: 2.6364619731903076
+Running avgs for agent 2: q_loss: 70139.1015625, p_loss: 2.0548970699310303, mean_rew: -0.9972035360046417, variance: 2.5088800175189974, lamda: 2.6364619731903076
+Running avgs for agent 3: q_loss: 67901.6796875, p_loss: 4.996922969818115, mean_rew: -0.7815894111573095, variance: 4.036343497514725, lamda: 2.6364619731903076
+
+steps: 1699975, episodes: 68000, mean episode reward: -1.9947068678058482, agent episode reward: [7.33, 7.33, -8.25253236275879, -8.402174505047059], time: 63.875
+steps: 1699975, episodes: 68000, mean episode variance: 5.199119387477636, agent episode variance: [1.9354061113595962, 1.652579104423523, 0.6402770261466503, 0.9708571455478668], time: 63.876
+Running avgs for agent 0: q_loss: 271593.28125, p_loss: -21.971233367919922, mean_rew: 1.01703125, variance: 7.741624445438385, lamda: 2.6614365577697754
+Running avgs for agent 1: q_loss: 231719.359375, p_loss: -20.95046043395996, mean_rew: 1.0093359375, variance: 6.610316417694092, lamda: 2.6614365577697754
+Running avgs for agent 2: q_loss: 62121.16796875, p_loss: 1.925624966621399, mean_rew: -0.9591282776109019, variance: 2.561108104586601, lamda: 2.6614365577697754
+Running avgs for agent 3: q_loss: 74161.6875, p_loss: 4.9208831787109375, mean_rew: -0.7616991805868708, variance: 3.8834285821914674, lamda: 2.6614365577697754
+
+steps: 1724975, episodes: 69000, mean episode reward: -3.5589872143016974, agent episode reward: [6.54, 6.54, -8.457477410673205, -8.181509803628494], time: 64.485
+steps: 1724975, episodes: 69000, mean episode variance: 5.430548375487327, agent episode variance: [1.742517265200615, 2.086315368294716, 0.5984230915307999, 1.003292650461197], time: 64.486
+Running avgs for agent 0: q_loss: 249201.546875, p_loss: -21.427934646606445, mean_rew: 0.9546484375, variance: 6.97006906080246, lamda: 2.686410665512085
+Running avgs for agent 1: q_loss: 218196.28125, p_loss: -20.230754852294922, mean_rew: 0.9565625, variance: 8.345261473178864, lamda: 2.686410665512085
+Running avgs for agent 2: q_loss: 57892.34765625, p_loss: 1.8363603353500366, mean_rew: -0.8889557590114201, variance: 2.3936923661231995, lamda: 2.686410665512085
+Running avgs for agent 3: q_loss: 76833.1328125, p_loss: 4.76588773727417, mean_rew: -0.7527489896692414, variance: 4.013170601844788, lamda: 2.686410665512085
+
+steps: 1749975, episodes: 70000, mean episode reward: -2.2710294948343783, agent episode reward: [7.22, 7.22, -9.233072935876768, -7.477956558957611], time: 63.842
+steps: 1749975, episodes: 70000, mean episode variance: 5.170452990889549, agent episode variance: [1.8127913699746132, 1.8283927916288376, 0.49728481471538544, 1.031984014570713], time: 63.842
+Running avgs for agent 0: q_loss: 240324.03125, p_loss: -20.826988220214844, mean_rew: 0.90203125, variance: 7.251165479898453, lamda: 2.7113852500915527
+Running avgs for agent 1: q_loss: 209773.15625, p_loss: -19.45127296447754, mean_rew: 0.90078125, variance: 7.31357116651535, lamda: 2.7113852500915527
+Running avgs for agent 2: q_loss: 50191.22265625, p_loss: 1.700933814048767, mean_rew: -0.8314304423056978, variance: 1.9891392588615417, lamda: 2.7113852500915527
+Running avgs for agent 3: q_loss: 73882.0, p_loss: 4.56082010269165, mean_rew: -0.7431167314264421, variance: 4.127936058282852, lamda: 2.7113852500915527
+
+steps: 1774975, episodes: 71000, mean episode reward: -2.0654439512471976, agent episode reward: [7.13, 7.13, -8.93975769603111, -7.385686255216085], time: 63.939
+steps: 1774975, episodes: 71000, mean episode variance: 4.714922311186791, agent episode variance: [1.7195094455480575, 1.536985856294632, 0.5659750602841377, 0.8924519490599633], time: 63.939
+Running avgs for agent 0: q_loss: 225654.96875, p_loss: -20.200300216674805, mean_rew: 0.8482421875, variance: 6.87803778219223, lamda: 2.7363593578338623
+Running avgs for agent 1: q_loss: 202983.875, p_loss: -18.799030303955078, mean_rew: 0.851328125, variance: 6.147943425178528, lamda: 2.7363593578338623
+Running avgs for agent 2: q_loss: 43010.9609375, p_loss: 1.6559126377105713, mean_rew: -0.7738671608608192, variance: 2.2639002411365508, lamda: 2.7363593578338623
+Running avgs for agent 3: q_loss: 77223.171875, p_loss: 4.621884822845459, mean_rew: -0.7265881725618963, variance: 3.569807796239853, lamda: 2.7363593578338623
+
+steps: 1799975, episodes: 72000, mean episode reward: -2.6368279298788164, agent episode reward: [7.0, 7.0, -10.210496159938153, -6.4263317699406635], time: 64.159
+steps: 1799975, episodes: 72000, mean episode variance: 4.800591238290071, agent episode variance: [1.7279466573596, 1.6462692602872848, 0.3956275895535946, 1.030747731089592], time: 64.16
+Running avgs for agent 0: q_loss: 207627.765625, p_loss: -19.461437225341797, mean_rew: 0.7884375, variance: 6.9117866294384, lamda: 2.761333703994751
+Running avgs for agent 1: q_loss: 204789.59375, p_loss: -18.313783645629883, mean_rew: 0.8025, variance: 6.585077041149139, lamda: 2.761333703994751
+Running avgs for agent 2: q_loss: 42308.52734375, p_loss: 1.4906120300292969, mean_rew: -0.7152982210038477, variance: 1.5825103582143785, lamda: 2.761333703994751
+Running avgs for agent 3: q_loss: 79825.984375, p_loss: 4.526890754699707, mean_rew: -0.7165507234578447, variance: 4.122990924358368, lamda: 2.761333703994751
+
+steps: 1824975, episodes: 73000, mean episode reward: -1.5483687685903196, agent episode reward: [7.65, 7.65, -9.737690270611452, -7.110678497978867], time: 64.052
+steps: 1824975, episodes: 73000, mean episode variance: 5.064058905497193, agent episode variance: [1.8869329383969307, 1.5669030169844627, 0.5293987126499414, 1.0808242374658585], time: 64.052
+Running avgs for agent 0: q_loss: 199414.921875, p_loss: -18.812335968017578, mean_rew: 0.7438671875, variance: 7.547731753587723, lamda: 2.7863080501556396
+Running avgs for agent 1: q_loss: 191725.53125, p_loss: -17.702510833740234, mean_rew: 0.7428515625, variance: 6.267612067937851, lamda: 2.7863080501556396
+Running avgs for agent 2: q_loss: 35107.19921875, p_loss: 1.5860064029693604, mean_rew: -0.6543941707050979, variance: 2.1175948505997657, lamda: 2.7863080501556396
+Running avgs for agent 3: q_loss: 79202.5546875, p_loss: 4.534409046173096, mean_rew: -0.6959608887576596, variance: 4.323296949863434, lamda: 2.7863080501556396
+
+steps: 1849975, episodes: 74000, mean episode reward: -2.2787246744675396, agent episode reward: [6.79, 6.79, -8.909736306424024, -6.948988368043513], time: 64.244
+steps: 1849975, episodes: 74000, mean episode variance: 4.629242112383246, agent episode variance: [1.7293241463899613, 1.459469806432724, 0.4766731245368719, 0.9637750350236892], time: 64.244
+Running avgs for agent 0: q_loss: 185993.484375, p_loss: -18.162996292114258, mean_rew: 0.6880078125, variance: 6.917296585559845, lamda: 2.8112823963165283
+Running avgs for agent 1: q_loss: 190114.046875, p_loss: -17.10108184814453, mean_rew: 0.6944921875, variance: 5.837879225730896, lamda: 2.8112823963165283
+Running avgs for agent 2: q_loss: 39228.3359375, p_loss: 1.7132407426834106, mean_rew: -0.6111104941317035, variance: 1.9066924981474875, lamda: 2.8112823963165283
+Running avgs for agent 3: q_loss: 82021.1484375, p_loss: 4.613699436187744, mean_rew: -0.6817851937771201, variance: 3.855100140094757, lamda: 2.8112823963165283
+
+steps: 1874975, episodes: 75000, mean episode reward: -2.546253338283867, agent episode reward: [7.21, 7.21, -10.534608430423235, -6.431644907860633], time: 64.161
+steps: 1874975, episodes: 75000, mean episode variance: 4.758300480723381, agent episode variance: [1.805287312090397, 1.5749846313595772, 0.43461192870140075, 0.9434166085720063], time: 64.161
+Running avgs for agent 0: q_loss: 173836.40625, p_loss: -17.49854850769043, mean_rew: 0.6483203125, variance: 7.221149248361588, lamda: 2.836256742477417
+Running avgs for agent 1: q_loss: 182172.546875, p_loss: -16.446964263916016, mean_rew: 0.6498046875, variance: 6.299938525438309, lamda: 2.836256742477417
+Running avgs for agent 2: q_loss: 35337.15234375, p_loss: 1.6724331378936768, mean_rew: -0.5566456217883275, variance: 1.738447714805603, lamda: 2.836256742477417/usr/local/lib/python3.7/site-packages/numpy/core/fromnumeric.py:3118: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/usr/local/lib/python3.7/site-packages/numpy/core/_methods.py:85: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+
+Running avgs for agent 3: q_loss: 73053.640625, p_loss: 4.34460973739624, mean_rew: -0.6572256243143458, variance: 3.773666434288025, lamda: 2.836256742477417
+
+steps: 1899975, episodes: 76000, mean episode reward: -3.6485845761016575, agent episode reward: [6.52, 6.52, -10.269202663946526, -6.419381912155132], time: 64.068
+steps: 1899975, episodes: 76000, mean episode variance: 4.430557472676039, agent episode variance: [1.5916753785014153, 1.5702302634716034, 0.49961231806874273, 0.7690395126342774], time: 64.068
+Running avgs for agent 0: q_loss: 155791.421875, p_loss: -16.805953979492188, mean_rew: 0.6024609375, variance: 6.366701514005661, lamda: 2.8612310886383057
+Running avgs for agent 1: q_loss: 178146.953125, p_loss: -15.917932510375977, mean_rew: 0.601953125, variance: 6.280921053886414, lamda: 2.8612310886383057
+Running avgs for agent 2: q_loss: 33633.9609375, p_loss: 1.6520735025405884, mean_rew: -0.5224638741604198, variance: 1.998449272274971, lamda: 2.8612310886383057
+Running avgs for agent 3: q_loss: 76061.34375, p_loss: 4.328835487365723, mean_rew: -0.6569582988398838, variance: 3.0761580505371096, lamda: 2.8612310886383057
+
+steps: 1924975, episodes: 77000, mean episode reward: -9.56067126393995, agent episode reward: [5.95, 5.95, -14.899475390888316, -6.561195873051634], time: 64.603
+steps: 1924975, episodes: 77000, mean episode variance: 4.048987479731441, agent episode variance: [1.5582546952962875, 1.3571143772602081, 0.37624599562585354, 0.7573724115490913], time: 64.603
+Running avgs for agent 0: q_loss: 149262.53125, p_loss: -16.196033477783203, mean_rew: 0.5848828125, variance: 6.23301878118515, lamda: 2.8862056732177734
+Running avgs for agent 1: q_loss: 179267.8125, p_loss: -15.535534858703613, mean_rew: 0.5899609375, variance: 5.4284575090408325, lamda: 2.8862056732177734
+Running avgs for agent 2: q_loss: 31578.521484375, p_loss: 1.6144646406173706, mean_rew: -0.5052114600562474, variance: 1.5049839825034141, lamda: 2.8862056732177734
+Running avgs for agent 3: q_loss: 72923.5625, p_loss: 4.081964492797852, mean_rew: -0.6486507286675387, variance: 3.029489646196365, lamda: 2.8862056732177734
+
+steps: 1949975, episodes: 78000, mean episode reward: -6.544703366217673, agent episode reward: [6.0, 6.0, -13.22984701246456, -5.314856353753112], time: 64.255
+steps: 1949975, episodes: 78000, mean episode variance: 4.0207964573279025, agent episode variance: [1.4357762957811355, 1.285826025724411, 0.44990566263347864, 0.8492884731888771], time: 64.256
+Running avgs for agent 0: q_loss: 144237.328125, p_loss: -15.642119407653809, mean_rew: 0.5646484375, variance: 5.743105183124542, lamda: 2.911179780960083
+Running avgs for agent 1: q_loss: 176182.484375, p_loss: -15.187533378601074, mean_rew: 0.5646875, variance: 5.143304102897644, lamda: 2.911179780960083
+Running avgs for agent 2: q_loss: 32318.298828125, p_loss: 1.3250659704208374, mean_rew: -0.4791526903602441, variance: 1.7996226505339146, lamda: 2.911179780960083
+Running avgs for agent 3: q_loss: 74626.53125, p_loss: 3.6807587146759033, mean_rew: -0.6408393826773128, variance: 3.3971538927555085, lamda: 2.911179780960083
+
+steps: 1974975, episodes: 79000, mean episode reward: -2.724780666922616, agent episode reward: [7.73, 7.73, -12.784642103834834, -5.400138563087782], time: 64.182
+steps: 1974975, episodes: 79000, mean episode variance: 3.9708432887792586, agent episode variance: [1.2733856142759323, 1.5615200874209405, 0.3808888967633247, 0.7550486903190613], time: 64.183
+Running avgs for agent 0: q_loss: 140866.65625, p_loss: -15.144956588745117, mean_rew: 0.5451171875, variance: 5.093542457103729, lamda: 2.936154365539551
+Running avgs for agent 1: q_loss: 172566.828125, p_loss: -14.946235656738281, mean_rew: 0.54890625, variance: 6.246080349683762, lamda: 2.936154365539551
+Running avgs for agent 2: q_loss: 32448.01171875, p_loss: 1.1689826250076294, mean_rew: -0.4641619118204105, variance: 1.5235555870532989, lamda: 2.936154365539551
+Running avgs for agent 3: q_loss: 74736.078125, p_loss: 3.439344644546509, mean_rew: -0.6192434880113579, variance: 3.020194761276245, lamda: 2.936154365539551
+
+steps: 1999975, episodes: 80000, mean episode reward: -4.027141427219931, agent episode reward: [9.53, 9.53, -14.185971442301293, -8.901169984918639], time: 64.311
+steps: 1999975, episodes: 80000, mean episode variance: 3.9057348795235156, agent episode variance: [1.3314841497540475, 1.4214895623922348, 0.36268912750482557, 0.7900720398724079], time: 64.312
+Running avgs for agent 0: q_loss: 136467.453125, p_loss: -14.736977577209473, mean_rew: 0.5430078125, variance: 5.32593659901619, lamda: 2.9611284732818604
+Running avgs for agent 1: q_loss: 173193.140625, p_loss: -14.917060852050781, mean_rew: 0.54171875, variance: 5.685958249568939, lamda: 2.9611284732818604
+Running avgs for agent 2: q_loss: 25999.1640625, p_loss: 1.0698051452636719, mean_rew: -0.45009773470010106, variance: 1.4507565100193023, lamda: 2.9611284732818604
+Running avgs for agent 3: q_loss: 73186.734375, p_loss: 3.2182600498199463, mean_rew: -0.6047104550656648, variance: 3.1602881594896317, lamda: 2.9611284732818604
+
+...Finished total of 80001 episodes... Now freezing policy and running for 1000 more episodes 
+steps: 24975, episodes: 1000, mean episode reward: -1.5000804138108275, agent episode reward: [10.09, 10.09, -13.817129277000992, -7.862951136809835], time: 45.834
+steps: 24975, episodes: 1000, mean episode variance: 0.0, agent episode variance: [0.0, 0.0, 0.0, 0.0], time: 45.835
+Running avgs for agent 0: q_loss: nan, p_loss: nan, mean_rew: nan, variance: nan, lamda: nan
+Running avgs for agent 1: q_loss: nan, p_loss: nan, mean_rew: nan, variance: nan, lamda: nan
+Running avgs for agent 2: q_loss: nan, p_loss: nan, mean_rew: nan, variance: nan, lamda: nan
+Running avgs for agent 3: q_loss: nan, p_loss: nan, mean_rew: nan, variance: nan, lamda: nan
+
+steps: 49975, episodes: 2000, mean episode reward: -2.7992488091676773, agent episode reward: [9.12, 9.12, -13.26632960283415, -7.772919206333527], time: 55.8
+steps: 49975, episodes: 2000, mean episode variance: 3.337622318029404, agent episode variance: [2.2222713557481764, 0.0, 0.26095074087381365, 0.8544002214074135], time: 55.8
+Running avgs for agent 0: q_loss: 0.0, p_loss: 0.0, mean_rew: 0.38746317879098363, variance: 9.10766887664795, lamda: 2.973665714263916
+Running avgs for agent 1: q_loss: 0.0, p_loss: 0.0, mean_rew: 0.3935066598360656, variance: 0.0, lamda: 2.973665714263916
+Running avgs for agent 2: q_loss: 0.0, p_loss: 0.0, mean_rew: -0.5479149423258602, variance: 1.0694702494828427, lamda: 2.973665714263916
+Running avgs for agent 3: q_loss: 0.0, p_loss: 0.0, mean_rew: -0.31602742592825217, variance: 3.5016402516697274, lamda: 2.973665714263916
+
+...Finished total of 2001 episodes with the fixed policy.
